@@ -219,7 +219,7 @@ copy profiles\EXAMPLE-WORLD-LOG.md profiles\WORLD-LOG.md
 ## 👤 关于作者
 
 - **小红书**：[@龙酱](https://www.xiaohongshu.com/user/profile/5c63da27000000001202556a)
-- **GitHub**：[chenklein26-maker/fitness-coach-rpg](https://github.com/chenklein26-maker/fitness-coach-rpg)
+- **GitHub**：https://github.com/chenklein26-maker/fitness-coach-rpg
 
 ---
 
