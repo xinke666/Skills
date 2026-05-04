@@ -1,4 +1,8 @@
-# Fitness Coach RPG
+# Fitness Coach RPG 🎮💪
+
+> 一个可开新档的 AI 健身教练框架：训练记录、RPG 属性成长、剧情推进三者联动
+
+![License](https://img.shields.io/github/license/chenklein26-maker/fitness-coach-rpg)
 
 一个可开新档的 AI 健身教练框架：训练记录、RPG 属性成长、剧情推进三者联动，但世界观、角色和主线由使用者自己探索与定义。
 
@@ -9,6 +13,18 @@
 - 可自定义世界观的训练叙事框架
 
 **English:** A reusable AI fitness coach framework powered by local Markdown logs, long-term progression, and optional story mode.
+
+---
+
+## ✨ 核心特性
+
+- 📝 **智能训练记录**：自动追踪重量、次数、RPE、体感反馈
+- 📊 **渐进式成长**：等级、属性、经验值系统
+- 🎭 **剧情模式**：训练转化为叙事，打造专属冒险
+- 🔄 **恢复感知**：智能判断中断后的恢复强度
+- 🎨 **高度自定义**：教练风格、RPG主题、世界观自由设定
+- 📁 **本地持久化**：Markdown 文件存储，安全可控
+- 🤖 **持续学习**：越用越懂你的训练偏好
 
 ---
 
@@ -71,15 +87,33 @@ If you want to run your own "save file" instead of inheriting someone else's sto
 
 ---
 
-## 快速开始
+## 🚀 快速开始
 
-1. 将 `share/` 目录放进你的 AI 工作区或 Skill 工作区。
-2. 复制 `profiles/` 中的示例文件，并重命名为以下正式文件名：
-   - `EXAMPLE-FITNESS-LOG.md` → `FITNESS-LOG.md`
-   - `EXAMPLE-STORY-LOG.md` → `STORY-LOG.md`
-   - `EXAMPLE-WORLD-LOG.md` → `WORLD-LOG.md`（仅在开启剧情模式时需要）
-3. 在 AI 对话中说“开始训练”或“初始化档案”。
-4. 让 AI 根据 `SKILL.md` 引导你完成首次设定。
+1. 将本仓库放进你的 AI 工作区或 Skill 工作区。
+2. 在 AI 对话中说“开始训练”或“初始化档案”。
+3. AI 会自动读取示例模板并引导你完成首次设定。
+
+> 💡 **提示**：AI Agent 会自动处理文件创建，无需手动操作。
+
+---
+
+### 📋 手动操作方式（如环境不支持完整 Skill 机制）
+
+```bash
+# 克隆项目
+git clone https://github.com/chenklein26-maker/fitness-coach-rpg.git
+cd fitness-coach-rpg
+
+# Linux/macOS
+cp profiles/EXAMPLE-FITNESS-LOG.md profiles/FITNESS-LOG.md
+cp profiles/EXAMPLE-STORY-LOG.md profiles/STORY-LOG.md
+cp profiles/EXAMPLE-WORLD-LOG.md profiles/WORLD-LOG.md
+
+# Windows
+copy profiles\EXAMPLE-FITNESS-LOG.md profiles\FITNESS-LOG.md
+copy profiles\EXAMPLE-STORY-LOG.md profiles\STORY-LOG.md
+copy profiles\EXAMPLE-WORLD-LOG.md profiles\WORLD-LOG.md
+```
 
 ### 两种起步方式
 
@@ -119,7 +153,6 @@ If you want to run your own "save file" instead of inheriting someone else's sto
 ## 目录结构
 
 ```text
-share/
 ├── README.md
 ├── SKILL.md
 ├── profiles/
@@ -180,6 +213,13 @@ share/
 示例内容仅用于说明结构，不代表唯一玩法。每个使用者都可以开出自己的档，定制自己的世界和角色。
 
 `examples/` 中的设计笔记和世界示例用于启发，不要求照搬。
+
+---
+
+## 👤 关于作者
+
+- **小红书**：[@龙酱](https://www.xiaohongshu.com/user/profile/5c63da27000000001202556a)
+- **GitHub**：[chenklein26-maker/fitness-coach-rpg](https://github.com/chenklein26-maker/fitness-coach-rpg)
 
 ---
 
