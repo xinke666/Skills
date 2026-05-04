@@ -8,6 +8,21 @@
 - 带长期成长感的训练记录系统
 - 可自定义世界观的训练叙事框架
 
+**English:** A reusable AI fitness coach framework powered by local Markdown logs, long-term progression, and optional story mode.
+
+---
+
+## Quick Intro (EN)
+
+Fitness Coach RPG helps you build a long-running training system with:
+
+- workout logging (weight, reps, RPE, notes)
+- recovery-aware planning (including comeback after breaks)
+- optional RPG progression and story mode
+- local-file structure for long-term continuity and customization
+
+If you want to run your own "save file" instead of inheriting someone else's story world, this repo is built for that.
+
 ---
 
 ## 适合谁
@@ -63,7 +78,7 @@
    - `EXAMPLE-FITNESS-LOG.md` → `FITNESS-LOG.md`
    - `EXAMPLE-STORY-LOG.md` → `STORY-LOG.md`
    - `EXAMPLE-WORLD-LOG.md` → `WORLD-LOG.md`（仅在开启剧情模式时需要）
-3. 在 AI 对话中说”开始训练”或”初始化档案”。
+3. 在 AI 对话中说“开始训练”或“初始化档案”。
 4. 让 AI 根据 `SKILL.md` 引导你完成首次设定。
 
 ### 两种起步方式
